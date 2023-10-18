@@ -5,6 +5,7 @@ body{
 	align-content:center;
 	justify-content:center;
 	text-align:center;
+	text-decoration:none;
 	
 }
 .songs{
@@ -13,11 +14,13 @@ body{
 	background-color:white;
 	padding:1rem;
 	border:1px solid black;
+	border-radius:0.5rem;
 }
 .media{
 	padding:1rem;
 	border:1px solid black;
 	background-color: rgb(255, 255, 255);
+	border-radius:0.5rem;
 }
 li{
 	list-style-type:none;
@@ -25,4 +28,16 @@ li{
 a{
 	text-decoration:none;
 }
-
+.player_one{
+	background-color: rgb(255, 255, 255);
+	padding:10px;
+	border-radius:0.5rem;
+}
+.player_two{
+	background-color: rgb(255, 255, 255);
+	padding:10px;
+	border-radius:0.5rem;
+}
+.p{
+	align-text:left;
+}
